@@ -39,7 +39,7 @@ def main(path, fileName, dim):
     
     print("sample size="+str(gamma*100/len(Y))+"% of original data")
     
-
+    return gamma/len(Y)
 
     
 if __name__=="main":
