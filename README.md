@@ -7,6 +7,7 @@ b) CNAK : Algorithm CNAK
 Sample size :  
               i) Provide path, filename and dimension of the dataset in call.py.
               ii)  output gamma
+              
 CNAK : 
          i) Provide path, filename and dimension of the dataset in call.py. Also provide gamma (output of sample size), k_max
          ii) output K_hat, clustering solution
