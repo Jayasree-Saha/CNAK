@@ -34,7 +34,7 @@ gamma=0.27
 data=[]
 #file1="sim4_"+str(j)+".csv"
 
-path="/home/jayasree/jayasree/2018/first_work/newdatasetCreation/simulations/sim2"
+path="/home/newdatasetCreation/simulations/sim2"
 fileName="sim2_1.csv"
 normalization=False
 dim=2

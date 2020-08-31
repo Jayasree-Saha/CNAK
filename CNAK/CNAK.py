@@ -5,8 +5,6 @@ import numpy as np
 import random
 import datetime
 import munkres
-#from scipy.cluster.vq import kmeans2 as cnak_plus
-#import scipy.cluster.vq as km
 from sklearn.cluster import KMeans
 from sklearn import metrics
 from sklearn.metrics import cluster as nmi_score
