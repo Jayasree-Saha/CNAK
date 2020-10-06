@@ -1,27 +1,21 @@
-# CNAK
-Cluster number assisted K-means
-There are two modules
-a) sample size: determination of the size of a sample
-b) CNAK : Algorithm CNAK
+# Cluster number assisted K-means (CNAK)
 
-Sample size :  
-              i) Provide path, filename and dimension of the dataset in call.py.
-              ii)  output gamma
-              
-CNAK : 
-         i) Provide path, filename and dimension of the dataset in call.py. Also provide gamma (output of sample size), k_max
-         ii) output K_hat, clustering solution
-         
+There are two python files
+a) Sample_Size_Determination.py : determine the size of a sample
+b) CNAK.py : Implementation of CNAK
+
+
 Dataset : 
+1) sim-2 simulation is attached
 
-          i) one simulation of sim-2 is attached 
-          
- Note :
- 
-        In Sample size, we have used hueristic adopted for sim-2. You may consider our paper to understand the value of variable c, tau etc.
   
 Dependencies: 
-              CNAK has the following dependencies: - numpy - scipy - scikit-learn - munkre
+              
+  CNAK has the following dependencies: - 
+    numpy
+    scipy
+    scikit-learn
+    munkre
 
         
  Citation: 
