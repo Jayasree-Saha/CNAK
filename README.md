@@ -90,8 +90,3 @@ issn = "0031-3203",
 doi = "https://doi.org/10.1016/j.patcog.2020.107625",
 url = "http://www.sciencedirect.com/science/article/pii/S0031320320304283",
 }
-
-
-
-
-
