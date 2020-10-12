@@ -20,6 +20,7 @@ This method can solve a few pertinent issues of clustering a dataset.
 #### Intuition : 
 
 The choice of K is governed by the  positional behavior of any two sets of the centroids.
+
     1.	 K < K_opt
     2.	 K = K_opt
     3. 	 K > K_opt
@@ -28,7 +29,7 @@ The choice of K is governed by the  positional behavior of any two sets of the c
    
 #### Experiment:
 
-Experiment is conducted on a dataset where 5 clusters are well separated. i.e, K_opt=5. We have conducted with K=3 (K < K_opt), 5 (K= K_opt), and 7 (K > K_opt).
+Experiment is conducted on a dataset where 5 clusters are well separated. i.e, K_opt=5. We have conducted with K=3 (K < K_opt),  5 (K= K_opt), and 7 (K > K_opt).
 
 
 #### Observation :
