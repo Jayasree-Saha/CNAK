@@ -52,6 +52,7 @@ Figure 3: Each row shows the positional behavior of cluster centroids chosen by 
 	Intuitively, more than one centroids get assigned to a compact cluster when a data is partitioned with K > K_opt. Interestingly, a compact cluster that may split varies in different samples.
     
 ####Conclusion on the experiment :
+
 	1. It indicates that for a dataset, other than K=K_opt there is a high chance of having a pair of centroids whose distance is larger 
        compared to the other pairs under observation.
 
