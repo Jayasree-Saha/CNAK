@@ -82,11 +82,13 @@ Check that this script creates following files in  the current directory and ret
 	CNAK_labels.txt (Predicted labels for optimal K)
     CNAK_scores.csv (CNAK score for K=k1 to k2)
     
-One may execute following code to understand the command-line arguments. It is advisable to read the paper before you set the value after -g. This value is important while the dataset is very large(#datapoints ~ 10^7)
+One may run the following command to see the description of required command-line arguments in CNAK.py. It is advisable to read the paper before you set the value after -g. This value is important while the dataset is very large (#data-points ~ 10^7)
 
 	python CNAK.py --help
 
 # Publication
+
+Cite our paper if you use our code.
 
 @article{SAHA2020,
 author = "Jayasree Saha and Jayanta Mukherjee",
