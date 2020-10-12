@@ -83,6 +83,7 @@ Check that this script creates following files in  the current directory and ret
     CNAK_scores.csv (CNAK score for K=k1 to k2)
 
 #Publication
+
 @article{SAHA2020,
 author = "Jayasree Saha and Jayanta Mukherjee",
 title = "CNAK : Cluster Number Assisted K-means",
