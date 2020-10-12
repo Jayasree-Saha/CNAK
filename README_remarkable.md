@@ -1,4 +1,5 @@
 #CNAK
+
 The CNAK module provides a K-means based algorithm which does not require pre-declaration of  K. It can detect appropriate cluster number within the data and useful for handling big data.
 
 This method can solve a few pertinent issues of clustering a dataset.
@@ -19,9 +20,9 @@ This method can solve a few pertinent issues of clustering a dataset.
 ####Intuition : 
 
 The choice of K is governed by the  positional behavior of any two sets of the centroids.
-	1.	 K < K_opt
+    1.	 K < K_opt
     2.	 K = K_opt
-    3. 	K > K_opt
+    3. 	 K > K_opt
     
    K_opt is the optimal cluster number for the given dataset
 ####Experiment:
@@ -48,25 +49,26 @@ Figure 3: Each row shows the positional behavior of cluster centroids chosen by 
 	+ They may be randomly scattered. The probability of occurring the  case is increasing with a growing number of observed pairs of samples.
 
 
-	Intuitively, more than one centroids get assigned to a compact cluster   when a data is partitioned with K > K_opt. Interestingly, a compact      cluster that may split varies in different samples.
+	Intuitively, more than one centroids get assigned to a compact cluster when a data is partitioned with K > K_opt. Interestingly, a compact cluster that may split varies in different samples.
     
 ####Conclusion on the experiment :
-	1. It indicates that for a dataset, other than K=K_opt there is a 		  high chance of having a pair of centroids whose distance is larger 
+	1. It indicates that for a dataset, other than K=K_opt there is a high chance of having a pair of centroids whose distance is larger 
        compared to the other pairs under observation.
 
-	2. The number of such cases increases with increasing pairs of              observations.
+	2. The number of such cases increases with increasing pairs of observations.
 	
-	3. Therefore, the average distance between a pair of centroids is 		  expected to be higher for K ≠ K_opt.
+	3. Therefore, the average distance between a pair of centroids is expected to be higher for K ≠ K_opt.
 	
-	4. The distortion would be high when K is non-optimal. Hence, the           positions of centroids in various samples provide random behavior for    K=3 and K=7.
+	4. The distortion would be high when K is non-optimal. Hence, the positions of centroids in various samples provide random behavior for K=3 and K=7.
 
 
 #Dependency
 
-	numpy>=1.15.4.
+    numpy>=1.15.4.
     sklearn>=0.20.1
     munkres (by Brian M. Clapper)
 #Demo
+
 CNAK demo:
 
 	python CNAK.py -f "sim2_12.csv"
